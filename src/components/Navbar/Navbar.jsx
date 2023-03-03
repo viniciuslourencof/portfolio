@@ -37,7 +37,7 @@ const Navbar = () => {
 
               <HiX onClick={() => setToggle(false)}/>
 
-              <ul className='app__navbar-links'>       
+              <ul >       
 
                 {['home', 'about', 'work', 'skills', 'contact'].map((item) => (            
 
